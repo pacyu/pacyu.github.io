@@ -1,5 +1,5 @@
 ---
-title: Comments about China's game restricting policy
+title: Comment on China's game restricting policy
 math: true
 comments: true
 layout: post
