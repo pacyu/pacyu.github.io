@@ -64,6 +64,7 @@ variable a         s = a
 
 parser :: [Lambda] -> String -> Lambda
 parser [a] [] = a
+parser _   [] = error "Syntax error have occurred."
 parser a (c:s)
   | c == ' ' = parser a s
   | c == 'λ' = parser ((Lam (show nxt) (Body (variable top (show nxt)))): pop2 a) s
