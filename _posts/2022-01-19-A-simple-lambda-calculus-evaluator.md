@@ -1,5 +1,7 @@
 ---
 title: Haskell 中实现一个简易的lambda 演算解释器
+comments: true
+layout: post
 ---
 
 实际上这是Codewars的一个题，没能完全通过，因为超时，以及某些测试不能过。
@@ -104,8 +106,7 @@ reduce a = a
 
 已知 `reduce` 不能通过的测试是：
 ```
-x x x x @ λ λ y @ ==> (λx.λx.x x) y
-                                             ==> λx.x x
+x x x x @ λ λ y @ ==> (λx.λx.x x) y => λx.x x
 ```
 其实我总觉得这个例子有点不是那么很合适，因为我个人觉得最好、最简单的办法就是用不同的 identifiers 来命名 bound variables，虽然它这里可能是想考虑作用域的问题。
 
