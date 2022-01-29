@@ -28,7 +28,7 @@ twitter_username: mahoushi_
 github_username:  pacyu
 
 # Build settings
-theme: tale
+# theme: tale
 remote_theme: chesterhow/tale
 
 url: "https://pacyu.github.io" # the base hostname & protocol for your site
