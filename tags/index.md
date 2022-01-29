@@ -1,6 +1,6 @@
 ---
 title: 标签分类
-layout: archive-taxonomies
+layout: default
 type: tags
 ---
 
