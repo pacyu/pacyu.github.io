@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Pacyu</title>
+    <link>https://localhost:1313/categories/python/</link>
+    <description>Recent content in Python on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Wed, 24 Oct 2018 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 sklearn 机器学习包</title>
+      <link>https://localhost:1313/docs/2018-10-24-machine-learning/</link>
+      <pubDate>Wed, 24 Oct 2018 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-10-24-machine-learning/</guid>
+      <description>机器学习可以做许多有趣的事情，每个技术方向都有入门例子，但实</description>
+      
+    </item>
+    
+  </channel>
+</rss>

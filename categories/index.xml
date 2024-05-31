@@ -38,5 +38,25 @@
       
     </item>
     
+    <item>
+      <title>Machine Learning</title>
+      <link>https://localhost:1313/categories/machine-learning/</link>
+      <pubDate>Wed, 24 Oct 2018 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/categories/machine-learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://localhost:1313/categories/python/</link>
+      <pubDate>Wed, 24 Oct 2018 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/categories/python/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>
