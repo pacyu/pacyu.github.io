@@ -115,19 +115,42 @@
   
   
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-PEDMYR1V0K"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-73GTJXG6NY"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-PEDMYR1V0K');
+  gtag('config', 'G-73GTJXG6NY');
 </script>
 
 
   
   
   <meta name="theme-color"/>
+  
+  
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCx2x_lsoSPK-VO7jwGE7C9seJLPx0aPA4",
+      authDomain: "AIzaSyCx2x_lsoSPK-VO7jwGE7C9seJLPx0aPA4",
+      projectId: "pacyu-5672d",
+      storageBucket: "pacyu-5672d.appspot.com",
+      messagingSenderId: "948126442784",
+      appId: "1:948126442784:web:fa0a1eb636f43e7694e345",
+      measurementId: "G-73GTJXG6NY"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
   
   
 </head>
