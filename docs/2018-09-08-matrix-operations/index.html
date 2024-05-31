@@ -721,7 +721,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content/docs/2018-09-08-matrix-operations.md"
+    href="https://github.com/pacyu/pacyu/docs/docs/2018-09-08-matrix-operations.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -1417,7 +1417,7 @@ a_{21} &amp; | &amp; a_{22} &amp; \cdots &amp; a_{2n} \\
 a_{n1} &amp; | &amp; a_{n2} &amp; \cdots &amp; a_{nn}
 \end{bmatrix} = \begin{bmatrix}
 a_{11} &amp; \omega^T \\
-\upsilon &amp; A'
+\upsilon &amp; A&rsquo;
 \end{bmatrix}
 $$</p>
 <p>其中 \( \upsilon \) 是一个 \( n - 1 \) 维列向量，\( \omega^T \) 是一个 \( n - 1 \) 维行向量，\( A&rsquo; \) 是一个 \( (n - 1) \times (n - 1) \) 矩阵。然后，利用矩阵代数 (通过简单地从头到尾使用乘法来验证方程式)，可以把 \( A \) 分解为</p>
@@ -1440,7 +1440,7 @@ $$</p>
 <p>如果矩阵 \( A \) 是非奇异的，那么舒尔补矩阵也是非奇异的。</p>
 <p>因为舒尔补是非奇异的，现在我们可以递归地找出它的一个 \( LU \) 分解。我们说</p>
 <p>$$
-A&rsquo; - \frac{\upsilon\omega^T}{a_{11}} = L&rsquo;U'
+A&rsquo; - \frac{\upsilon\omega^T}{a_{11}} = L&rsquo;U&rsquo;
 $$</p>
 <p>其中 \( L&rsquo; \) 是单位下三角矩阵，\( U&rsquo; \) 是上三角矩阵。然后，利用矩阵代数可得</p>
 <p>$$
@@ -1459,16 +1459,16 @@ a_{00} &amp; \omega^T \\
 \end{bmatrix}
 \begin{bmatrix}
 a_{k0} &amp; \omega^T \\
-0 &amp; L&rsquo;U'
+0 &amp; L&rsquo;U&rsquo;
 \end{bmatrix} \\
 &amp;=
 \begin{bmatrix}
 1 &amp; 0 \\
-\frac{\upsilon}{a_{00}} &amp; L'
+\frac{\upsilon}{a_{00}} &amp; L&rsquo;
 \end{bmatrix}
 \begin{bmatrix}
 a_{00} &amp; \omega^T \\
-0 &amp; U'
+0 &amp; U&rsquo;
 \end{bmatrix} =
 LU
 \end{aligned}
@@ -1593,7 +1593,7 @@ $$</p>
 <blockquote>
 <p>原理：算法考虑每次计算过程，若主元为 \( 0 \) 或主元的值大于除数时，我们将找到合适的行与当前主元所在的行进行交换。比如，第 \( 1 \) 行，第 \( 1 \) 列为 \( 0 \)，我们把第 \( 1 \) 行与第 \( k \) 行互换，这等价于用一个置换矩阵 \( Q \) 左乘矩阵 \( A \)。因此可以把 \( QA \) 写成 \( QA = \begin{bmatrix}
 a_{k1} &amp; \omega^T \\
-\upsilon &amp; A'
+\upsilon &amp; A&rsquo;
 \end{bmatrix} \)，其中 \( \upsilon = (a_{21}, a_{31}, \cdots, a_{n1})^T, \omega^T = (a_{k2}, a_{k3}, \cdots, a_{kn}) \)</p>
 </blockquote>
 <p>\( A&rsquo; \) 是一个 \( (n - 1) \times (n - 1) \) 矩阵。因为 \( a_{k1} \neq 0 \)，现在可以执行与 \( LU \) 分解基本相同的线性代数运算，但现在能保证不会除以 \( 0 \)</p>
@@ -1601,7 +1601,7 @@ a_{k1} &amp; \omega^T \\
 QA =
 \begin{bmatrix}
 a_{k1} &amp; \omega^T \\
-\upsilon &amp; A'
+\upsilon &amp; A&rsquo;
 \end{bmatrix} = \begin{bmatrix}
 1 &amp; 0 \\
 \frac{\upsilon}{a_{k1}} &amp; I_{n - 1}
@@ -1613,13 +1613,13 @@ a_{k1} &amp; \omega^T \\
 $$</p>
 <p>如果 \( A \) 是非奇异的，那么舒尔补 \( A&rsquo; - \frac{\upsilon\omega^T}{a_{k1}} \) 也是非奇异的。因此，可以递归地找出它的一个 \( LUP \) 分解，包括单位下三角矩阵 \( L&rsquo; \)、上三角矩阵 \( U&rsquo; \) 和置换矩阵 \( P&rsquo; \)，满足</p>
 <p>$$
-P&rsquo;(A&rsquo; - \frac{\upsilon\omega^T}{a_{k1}}) = L&rsquo;U'
+P&rsquo;(A&rsquo; - \frac{\upsilon\omega^T}{a_{k1}}) = L&rsquo;U&rsquo;
 $$</p>
 <p>定义
 $$
 P = \begin{bmatrix}
 1 &amp; 0 \\
-0 &amp; P'
+0 &amp; P&rsquo;
 \end{bmatrix}
 Q
 $$</p>
@@ -1629,12 +1629,12 @@ $$</p>
 PA &amp;=
 \begin{bmatrix}
 1 &amp; 0 \\
-0 &amp; P'
+0 &amp; P&rsquo;
 \end{bmatrix}
 QA =
 \begin{bmatrix}
 1 &amp; 0 \\
-0 &amp; P'
+0 &amp; P&rsquo;
 \end{bmatrix}
 \begin{bmatrix}
 1 &amp; 0 \\
@@ -1647,7 +1647,7 @@ a_{k1} &amp; \omega^T \\
 &amp;=
 \begin{bmatrix}
 1 &amp; 0 \\
-P&rsquo;\frac{\upsilon}{a_{k1}} &amp; P'
+P&rsquo;\frac{\upsilon}{a_{k1}} &amp; P&rsquo;
 \end{bmatrix}
 \begin{bmatrix}
 a_{k1} &amp; \omega^T \\
@@ -1669,14 +1669,14 @@ P&rsquo;\frac{\upsilon}{a_{k1}} &amp; I_{n - 1}
 \end{bmatrix}
 \begin{bmatrix}
 a_{k1} &amp; \omega^T \\
-0 &amp; L&rsquo;U'
+0 &amp; L&rsquo;U&rsquo;
 \end{bmatrix} = \begin{bmatrix}
 1 &amp; 0 \\
-P&rsquo;\frac{\upsilon}{a_{k1}} &amp; L'
+P&rsquo;\frac{\upsilon}{a_{k1}} &amp; L&rsquo;
 \end{bmatrix}
 \begin{bmatrix}
 a_{k1} &amp; \omega^T \\
-0 &amp; U'
+0 &amp; U&rsquo;
 \end{bmatrix} =
 LU
 \end{aligned}
