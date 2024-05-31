@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>C/C&#43;&#43; on Pacyu</title>
+    <link>https://localhost:1313/tags/c/c&#43;&#43;/</link>
+    <description>Recent content in C/C&#43;&#43; on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Wed, 04 Nov 2020 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/tags/c/c++/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>斐波那契数O(lgn)算法及证明</title>
+      <link>https://localhost:1313/docs/2020-11-04-fibpnacci-lgn/</link>
+      <pubDate>Wed, 04 Nov 2020 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2020-11-04-fibpnacci-lgn/</guid>
+      <description>这是往主页中添加内容的例子。</description>
+      
+    </item>
+    
+    <item>
+      <title>分形</title>
+      <link>https://localhost:1313/docs/2020-11-01-fractal-set/</link>
+      <pubDate>Sun, 01 Nov 2020 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2020-11-01-fractal-set/</guid>
+      <description>前言 # 话说一直想找时间写写关于学图形学时学到的东西，但又觉得</description>
+      
+    </item>
+    
+    <item>
+      <title>后缀树</title>
+      <link>https://localhost:1313/docs/2018-09-25-suffix-tree/</link>
+      <pubDate>Tue, 25 Sep 2018 22:47:46 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-25-suffix-tree/</guid>
+      <description>详见: Suffix tree 路径压缩版后缀树 # #include &amp;lt;iostream&amp;gt; using namespace std; #define rep(i, a, b) for(int i = a; i &amp;lt; b;</description>
+      
+    </item>
+    
+    <item>
+      <title>筛法</title>
+      <link>https://localhost:1313/docs/2018-09-13-sieve/</link>
+      <pubDate>Thu, 13 Sep 2018 16:50:51 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-13-sieve/</guid>
+      <description>这里介绍几种快速求素数的算法。 Sieve of Eratosthenes (埃氏筛) # 时间复杂度：</description>
+      
+    </item>
+    
+    <item>
+      <title>计数排序</title>
+      <link>https://localhost:1313/docs/2018-09-09-counting-sort/</link>
+      <pubDate>Sun, 09 Sep 2018 20:38:06 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-09-counting-sort/</guid>
+      <description>简介 # 计数排序是一种空间换时间的排序算法。通常用作 基数排序的</description>
+      
+    </item>
+    
+    <item>
+      <title>矩阵运算</title>
+      <link>https://localhost:1313/docs/2018-09-08-matrix-operations/</link>
+      <pubDate>Sat, 08 Sep 2018 01:10:44 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-08-matrix-operations/</guid>
+      <description>这篇主要介绍一些矩阵运算相关算法。 矩阵乘法 # 矩阵相乘：\( C</description>
+      
+    </item>
+    
+    <item>
+      <title>Kruskal&#39;s algorithm</title>
+      <link>https://localhost:1313/docs/2018-08-29-kruskal-s-algorithm/</link>
+      <pubDate>Wed, 29 Aug 2018 18:18:43 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-29-kruskal-s-algorithm/</guid>
+      <description>Kruskal算法可用来求解最小生成树(minimum-sp</description>
+      
+    </item>
+    
+    <item>
+      <title>Tarjan&#39;s algorithm</title>
+      <link>https://localhost:1313/docs/2018-08-27-tarjan-s-algorithm/</link>
+      <pubDate>Mon, 27 Aug 2018 20:54:58 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-27-tarjan-s-algorithm/</guid>
+      <description>Tarjan算法可以用来求有向图的强连通分量个数。算法由Ro</description>
+      
+    </item>
+    
+    <item>
+      <title>拓扑排序</title>
+      <link>https://localhost:1313/docs/2018-08-24-topological-sort/</link>
+      <pubDate>Fri, 24 Aug 2018 18:30:07 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-24-topological-sort/</guid>
+      <description>生活中许多实际应用都需要使用有向无环图来指明事件的优先次序。</description>
+      
+    </item>
+    
+    <item>
+      <title>Kosaraju&#39;s algorithm</title>
+      <link>https://localhost:1313/docs/2018-08-17-kosaraju-s-algorithm/</link>
+      <pubDate>Fri, 17 Aug 2018 19:19:47 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-17-kosaraju-s-algorithm/</guid>
+      <description>该算法可以用来求解一个有向图的强连通分量。 算法解析 # 什么是强</description>
+      
+    </item>
+    
+    <item>
+      <title>牛顿法(Newton&#39;s method)</title>
+      <link>https://localhost:1313/docs/2018-08-04-newton-s-method/</link>
+      <pubDate>Sat, 04 Aug 2018 16:21:39 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-04-newton-s-method/</guid>
+      <description>牛顿法也是数值分析中很常见的算法了。嘛，网上对它的各种介绍也</description>
+      
+    </item>
+    
+    <item>
+      <title>线段树（Segment tree）</title>
+      <link>https://localhost:1313/docs/2018-08-01-segment-tree/</link>
+      <pubDate>Wed, 01 Aug 2018 22:04:32 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-01-segment-tree/</guid>
+      <description>一种区间操作算法。 算法实现 # #include &amp;lt;iostream&amp;gt; #define LC(i) ((i) &amp;lt;&amp;lt; 1) #define RC(i) ((i) &amp;lt;&amp;lt; 1 | 1) #define M</description>
+      
+    </item>
+    
+    <item>
+      <title>树状数组（Fenwick tree）</title>
+      <link>https://localhost:1313/docs/2018-08-01-fenwick-tree/</link>
+      <pubDate>Wed, 01 Aug 2018 21:46:03 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-01-fenwick-tree/</guid>
+      <description>树状数组是一种是常用于区间操作的算法。 算法实现 # #include &amp;lt;iostream&amp;gt; #define LSB(i) (i &amp;amp;</description>
+      
+    </item>
+    
+    <item>
+      <title>并查集</title>
+      <link>https://localhost:1313/docs/2018-07-28-union-find/</link>
+      <pubDate>Sat, 28 Jul 2018 13:47:58 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-07-28-union-find/</guid>
+      <description>About algorithm # Union-Find algorithm(also called a Disjoint-set or Merge find algorithm) is a very useful data structure. References # Recommend to see this document: Union-Find.pdf Algorithm implementation # The</description>
+      
+    </item>
+    
+    <item>
+      <title>梯度下降算法（更新于 2020/12/04）</title>
+      <link>https://localhost:1313/docs/2018-07-26-gradient-descent/</link>
+      <pubDate>Thu, 26 Jul 2018 23:30:49 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-07-26-gradient-descent/</guid>
+      <description>梯度下降法(Gradient descent)又叫最速下降法，</description>
+      
+    </item>
+    
+  </channel>
+</rss>

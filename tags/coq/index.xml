@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coq on Pacyu</title>
+    <link>https://localhost:1313/tags/coq/</link>
+    <description>Recent content in Coq on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Sun, 08 Aug 2021 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/tags/coq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coq 证明几何不等式</title>
+      <link>https://localhost:1313/docs/2021-08-08-to-prove-geometry-inequality-means-with-coq-/</link>
+      <pubDate>Sun, 08 Aug 2021 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2021-08-08-to-prove-geometry-inequality-means-with-coq-/</guid>
+      <description>一开始是想形式化几何不等式（均值不等式），然后想用来证明一些</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MatLab on Pacyu</title>
+    <link>https://localhost:1313/tags/matlab/</link>
+    <description>Recent content in MatLab on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Thu, 26 Jul 2018 23:30:49 +0800</lastBuildDate><atom:link href="https://localhost:1313/tags/matlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>梯度下降算法（更新于 2020/12/04）</title>
+      <link>https://localhost:1313/docs/2018-07-26-gradient-descent/</link>
+      <pubDate>Thu, 26 Jul 2018 23:30:49 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-07-26-gradient-descent/</guid>
+      <description>梯度下降法(Gradient descent)又叫最速下降法，</description>
+      
+    </item>
+    
+  </channel>
+</rss>

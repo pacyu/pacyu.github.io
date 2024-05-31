@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fractal on Pacyu</title>
+    <link>https://localhost:1313/categories/fractal/</link>
+    <description>Recent content in Fractal on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Sun, 01 Nov 2020 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/categories/fractal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分形</title>
+      <link>https://localhost:1313/docs/2020-11-01-fractal-set/</link>
+      <pubDate>Sun, 01 Nov 2020 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2020-11-01-fractal-set/</guid>
+      <description>前言 # 话说一直想找时间写写关于学图形学时学到的东西，但又觉得</description>
+      
+    </item>
+    
+  </channel>
+</rss>

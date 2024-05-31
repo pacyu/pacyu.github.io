@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Pacyu</title>
+    <link>https://localhost:1313/tags/math/</link>
+    <description>Recent content in Math on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Haskell 中实现一个简易的lambda 演算解释器</title>
+      <link>https://localhost:1313/docs/2022-01-19-implement-a-simple-lambda-calculus-evaluator/</link>
+      <pubDate>Wed, 19 Jan 2022 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2022-01-19-implement-a-simple-lambda-calculus-evaluator/</guid>
+      <description>实际上这是Codewars的一个题，但没能完全通过。 先放代码</description>
+      
+    </item>
+    
+    <item>
+      <title>数学家与证明</title>
+      <link>https://localhost:1313/docs/2021-08-18-mathematicians-and-proofs/</link>
+      <pubDate>Wed, 18 Aug 2021 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2021-08-18-mathematicians-and-proofs/</guid>
+      <description>首先，我不得不歌颂下伟大的数学家们（包含哲学家、逻辑学家们）</description>
+      
+    </item>
+    
+    <item>
+      <title>Coq 证明几何不等式</title>
+      <link>https://localhost:1313/docs/2021-08-08-to-prove-geometry-inequality-means-with-coq-/</link>
+      <pubDate>Sun, 08 Aug 2021 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2021-08-08-to-prove-geometry-inequality-means-with-coq-/</guid>
+      <description>一开始是想形式化几何不等式（均值不等式），然后想用来证明一些</description>
+      
+    </item>
+    
+    <item>
+      <title>斐波那契数O(lgn)算法及证明</title>
+      <link>https://localhost:1313/docs/2020-11-04-fibpnacci-lgn/</link>
+      <pubDate>Wed, 04 Nov 2020 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2020-11-04-fibpnacci-lgn/</guid>
+      <description>这是往主页中添加内容的例子。</description>
+      
+    </item>
+    
+    <item>
+      <title>分形</title>
+      <link>https://localhost:1313/docs/2020-11-01-fractal-set/</link>
+      <pubDate>Sun, 01 Nov 2020 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2020-11-01-fractal-set/</guid>
+      <description>前言 # 话说一直想找时间写写关于学图形学时学到的东西，但又觉得</description>
+      
+    </item>
+    
+    <item>
+      <title>矩阵运算</title>
+      <link>https://localhost:1313/docs/2018-09-08-matrix-operations/</link>
+      <pubDate>Sat, 08 Sep 2018 01:10:44 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-08-matrix-operations/</guid>
+      <description>这篇主要介绍一些矩阵运算相关算法。 矩阵乘法 # 矩阵相乘：\( C</description>
+      
+    </item>
+    
+    <item>
+      <title>数学-导数篇（持续更新）</title>
+      <link>https://localhost:1313/docs/2018-09-05-math-derivative/</link>
+      <pubDate>Wed, 05 Sep 2018 19:39:45 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-05-math-derivative/</guid>
+      <description>这里主要存放一些导数题。 题目 # 1.已知向量 \( a = (\sin(x), \frac{3}{4}), b = (\cos(x), -1)</description>
+      
+    </item>
+    
+    <item>
+      <title>高等数学-积分方程篇（持续更新）</title>
+      <link>https://localhost:1313/docs/2018-09-03-integral-equation/</link>
+      <pubDate>Mon, 03 Sep 2018 02:55:15 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-03-integral-equation/</guid>
+      <description>这里存放一些积分方程题的题解。 题目 # 1.求 \( \int_{0}^{\frac{\pi}{4}} x \ \prod cos(\frac{x}{2^k}) dx \) (from</description>
+      
+    </item>
+    
+    <item>
+      <title>高中数学-向量篇（持续更新）</title>
+      <link>https://localhost:1313/docs/2018-09-02-math-vector/</link>
+      <pubDate>Sun, 02 Sep 2018 18:54:58 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-09-02-math-vector/</guid>
+      <description>这里是关于向量运算的题目题解，题目质量大概参差不齐。 向量在现</description>
+      
+    </item>
+    
+    <item>
+      <title>牛顿法(Newton&#39;s method)</title>
+      <link>https://localhost:1313/docs/2018-08-04-newton-s-method/</link>
+      <pubDate>Sat, 04 Aug 2018 16:21:39 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-08-04-newton-s-method/</guid>
+      <description>牛顿法也是数值分析中很常见的算法了。嘛，网上对它的各种介绍也</description>
+      
+    </item>
+    
+    <item>
+      <title>梯度下降算法（更新于 2020/12/04）</title>
+      <link>https://localhost:1313/docs/2018-07-26-gradient-descent/</link>
+      <pubDate>Thu, 26 Jul 2018 23:30:49 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-07-26-gradient-descent/</guid>
+      <description>梯度下降法(Gradient descent)又叫最速下降法，</description>
+      
+    </item>
+    
+  </channel>
+</rss>

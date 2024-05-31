@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Pacyu</title>
+    <link>https://localhost:1313/tags/python/</link>
+    <description>Recent content in Python on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Sun, 01 Nov 2020 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分形</title>
+      <link>https://localhost:1313/docs/2020-11-01-fractal-set/</link>
+      <pubDate>Sun, 01 Nov 2020 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2020-11-01-fractal-set/</guid>
+      <description>前言 # 话说一直想找时间写写关于学图形学时学到的东西，但又觉得</description>
+      
+    </item>
+    
+    <item>
+      <title>使用 sklearn 机器学习包</title>
+      <link>https://localhost:1313/docs/2018-10-24-machine-learning/</link>
+      <pubDate>Wed, 24 Oct 2018 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-10-24-machine-learning/</guid>
+      <description>机器学习可以做许多有趣的事情，每个技术方向都有入门例子，但实</description>
+      
+    </item>
+    
+    <item>
+      <title>梯度下降算法（更新于 2020/12/04）</title>
+      <link>https://localhost:1313/docs/2018-07-26-gradient-descent/</link>
+      <pubDate>Thu, 26 Jul 2018 23:30:49 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2018-07-26-gradient-descent/</guid>
+      <description>梯度下降法(Gradient descent)又叫最速下降法，</description>
+      
+    </item>
+    
+  </channel>
+</rss>

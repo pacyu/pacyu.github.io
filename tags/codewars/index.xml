@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codewars on Pacyu</title>
+    <link>https://localhost:1313/tags/codewars/</link>
+    <description>Recent content in Codewars on Pacyu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2018 Pacyu</copyright>
+    <lastBuildDate>Wed, 19 Jan 2022 22:34:16 +0800</lastBuildDate><atom:link href="https://localhost:1313/tags/codewars/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Haskell 中实现一个简易的lambda 演算解释器</title>
+      <link>https://localhost:1313/docs/2022-01-19-implement-a-simple-lambda-calculus-evaluator/</link>
+      <pubDate>Wed, 19 Jan 2022 22:34:16 +0800</pubDate>
+      
+      <guid>https://localhost:1313/docs/2022-01-19-implement-a-simple-lambda-calculus-evaluator/</guid>
+      <description>实际上这是Codewars的一个题，但没能完全通过。 先放代码</description>
+      
+    </item>
+    
+  </channel>
+</rss>
