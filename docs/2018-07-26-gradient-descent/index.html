@@ -107,7 +107,7 @@
     "keywords": ["Math","C/C++","MatLab","Python"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1746"
+    "wordCount": "1749"
   }]
   </script>
 
@@ -742,7 +742,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2018-07-26 23:30:49 &#43;0800 CST">2018-07-26</time><span class="px-2 text-primary-500">&middot;</span><span>1746 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2018-07-26 23:30:49 &#43;0800 CST">2018-07-26</time><span class="px-2 text-primary-500">&middot;</span><span>1749 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1136,7 +1136,7 @@
 
 <p><a href="https://en.wikipedia.org/wiki/Gradient_descent"   target="_blank">
     梯度下降法</a>(Gradient descent)又叫最速下降法，是一种局部搜索算法，属于智能算法，类似的有爬山算法、模拟退火等。基本原理是优化理论中的无约束问题，利用梯度搜索函数变化最快的方向，然后不断迭代寻找出极值的方法。</p>
-<p>有空我将补上推导过程并给出梯度法的收敛条件，可能还会介绍一些其它无约束问题的优化算法(牛顿法、共轭梯度法等)及其他约束问题的优化算法，届时我们将会看到许多有趣的搜索算法，比如斐波那契法、黄金比例法（\( 0.618 \)法）等。</p>
+<p>有空我将补上推导过程并给出梯度法的收敛条件，可能还会介绍一些其它无约束问题的优化算法(牛顿法、共轭梯度法等)及其他约束问题的优化算法，届时我们将会看到许多有趣的搜索算法，比如斐波那契法、黄金比例法（\\( 0.618 \\)法）等。</p>
 
 
 <h2 class="relative group">代码实现 
@@ -1149,9 +1149,9 @@
     </span>        
     
 </h2>
-<p>使用方法就是自定义一个多元函数 \( g \)，然后如下方式调用：</p>
+<p>使用方法就是自定义一个多元函数 \\( g \\)，然后如下方式调用：</p>
 <p><code>(gradient-descent g init-arguments max-iterations tolerance)</code></p>
-<p>例子： \( f(x_1, x_2) = exp(x_1^2 + x_2^2) \)</p>
+<p>例子： \\( f(x_1, x_2) = exp(x_1^2 + x_2^2) \\)</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-scheme" data-lang="scheme"><span class="line"><span class="cl"><span class="p">(</span><span class="nf">gradient-descent</span>
 </span></span><span class="line"><span class="cl">  <span class="p">(</span><span class="k">lambda </span><span class="p">(</span><span class="nf">vec</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl">    <span class="p">(</span><span class="nb">exp </span><span class="p">(</span><span class="nb">+ </span><span class="p">(</span><span class="nf">square</span> <span class="p">(</span><span class="nb">list-ref </span><span class="nv">vec</span> <span class="mi">0</span><span class="p">))</span> <span class="p">(</span><span class="nf">square</span> <span class="p">(</span><span class="nb">list-ref </span><span class="nv">vec</span> <span class="mi">1</span><span class="p">)))))</span>
